@@ -1,0 +1,61 @@
+Paso 1: git init para crear un poryecto local
+
+
+Paso 2:
+
+git config user.name "saraviaej"
+git config user.email "pxesarav@cibertec.edu.pe"
+
+Paso 3:
+
+git remote add origin "https://github.com/saraviaej/test.git"
+
+Paso 4:
+
+git status
+
+Paso 5: 
+
+git add data.txt
+
+Paso 6:
+
+git commit -m "Estoy seguro de este commit 1"
+
+Paso 7:
+
+git push -u origin master
+
+Paso 8: 
+-- Clonar repositorios
+
+git clon
+
+Paso 8:
+-- Traer los cambios del repositorio remoto a tu local
+
+git pull origin master
+
+Paso 10:
+
+-- Puede ver en que rama estoy
+
+git branch
+
+Paso 11:
+
+git branch rama1
+
+Paso 12:
+
+-- Si quiero cambiar el nombre de mi rama
+
+git branch -m rama1 develop
+
+Paso 13:
+
+git checkout develop
+
+Paso 14:
+
+git branch -d test
